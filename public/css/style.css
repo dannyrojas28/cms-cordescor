@@ -1,0 +1,322 @@
+html,
+body {
+    height: 100%;
+
+}
+
+.carousel {
+    height: 50%;
+    margin-top: -20px;
+}
+
+.navbar {
+    z-index: 10;
+}
+
+.carousel-inner,
+.carousel-inner .item {
+    height: 100%;
+}
+
+
+.page-content {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+footer.page-footer {
+    margin-top: 0;
+}
+
+
+.fb-bg {
+background-color: #3B5998;
+}
+.tw-bg {
+background-color: #55ACEE;
+}
+.gplus-bg {
+background-color: #DD4B39;
+}
+
+footer.page-footer a {
+line-height: 25px;
+}
+
+footer.page-footer a {
+color: #fff;
+font-size: 15px;
+}
+.rg{
+    /*border-right: 1px solid #827717;*/
+    margin-top: 40px;
+}
+.lf{
+    /*border-left: 1px solid #827717;*/
+}
+.hv: hover{
+    color:blue;
+}
+
+
+/* label color */
+   .input-field label {
+     color: #000;
+   }
+   /* label focus color */
+   .input-field input[type=text]:focus + label {
+     color: #000;
+   }
+   /* label underline focus color */
+   .input-field input[type=text]:focus {
+     border-bottom: 1px solid #000;
+     box-shadow: 0 1px 0 0 #000;
+   }
+   /* valid color */
+   .input-field input[type=text].valid {
+     border-bottom: 1px solid #000;
+     box-shadow: 0 1px 0 0 #000;
+   }
+   /* invalid color */
+   .input-field input[type=text].invalid {
+     border-bottom: 1px solid #000;
+     box-shadow: 0 1px 0 0 #000;
+   }
+   /* icon prefix focus color */
+   .input-field .prefix.active {
+     color: #000;
+   }
+
+/*********************
+MDBootstrap - Magic Portfolio
+**********************/
+
+.activexs{
+    color: #fff;
+  background-color: #ef6c00;
+}
+.input{
+    height: 45px;
+    background:#fff;
+    border:1px solid #d1d1d1;
+    border-radius:8px;
+}
+
+
+/* Carousel */
+
+.carousel {
+    height: 100%;
+}
+.carousel .item {
+    height: 100%; 
+}
+
+.carousel .active {
+    height: 100%;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+#carousel-bg .item:nth-child(1) {
+    background-image: url(http://mdbootstrap.com/wp-content/uploads/2015/10/photographerbg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#carousel-bg .item:nth-child(2) video { 
+    opacity: 0.4;
+    
+}
+#carousel-bg .item:nth-child(2) {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#carousel-bg .item:nth-child(3) {
+    background-image: url(http://mdbootstrap.com/wp-content/uploads/2015/10/photographerbg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.carousel-full-bg .carousel-caption  {
+    margin-bottom: 22%;
+    margin-top: 22%;
+}
+
+@media only screen and (max-width: 767px) {
+    .carousel-full-bg .carousel-caption {
+        margin-bottom: 25%;
+    }
+}
+
+
+/* Footer normalize */
+
+footer.page-footer {
+    margin-top: 0;
+}
+
+
+/* Navbar normalize */
+
+.navbar {
+    z-index: 999;
+}
+
+@media only screen and (max-width: 767px) {
+    .navbar-header,
+    .navbar-collapse {
+        background-color: #3E4551;
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    .navbar-nav li a {
+        font-size: 0.75em;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .navbar-nav li a {
+        font-size: 1em;
+    }
+}
+
+.top-nav-collapse {
+    background-color: #3E4551;
+}
+
+
+/* Typography */
+
+@media only screen and (max-width: 600px) {
+    h2,
+    h3 {
+        font-size: 2em
+    }
+}
+
+
+/* Sections */
+
+.section-white .avatar-ws {
+    width: 100%;
+    max-width: 250px;
+    margin-bottom: 2em
+}
+
+.section-white-0 {
+    margin: 0;
+    padding: 0;
+}
+
+.section-white .contact-data li p {
+    text-align: center;
+}
+
+
+/* Tiled gallery */
+
+.tiled-gallery .tile-1 {
+    background-image: url(http://mdbootstrap.com/wp-content/uploads/2015/10/kfi5dark.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tiled-gallery .tile-2 {
+    background-image: url(http://mdbootstrap.com/wp-content/uploads/2015/10/places899.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tiled-gallery .tile-3 {
+    background-image: url(http://mdbootstrap.com/wp-content/uploads/2015/10/moments899.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tiled-gallery .tile-4 {
+    background-image: url(http://mdbootstrap.com/wp-content/uploads/2015/10/kids899.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tiled-gallery .tile-5 {
+    background-image: url(http://mdbootstrap.com/wp-content/uploads/2015/10/wedding899.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tiled-gallery .tile-6 {
+    background-image: url(http://mdbootstrap.com/wp-content/uploads/2015/10/kfi7dark.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tiled-gallery .tile-7 {
+    background-image: url(http://mdbootstrap.com/wp-content/uploads/2015/10/motion899.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tiled-gallery .tile-8 {
+    background-image: url(http://mdbootstrap.com/wp-content/uploads/2015/10/food899.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tiled-gallery .tile-9 {
+    background-image: url(http://mdbootstrap.com/wp-content/uploads/2015/10/emotion28992.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Parallax */
+
+#par-about-me {
+    background-image: url(http://mdbootstrap.com/wp-content/uploads/2015/10/photographer-dark.jpg);
+}
+
+
+#par-special-offer {
+    background-image: url(http://mdbootstrap.com/wp-content/uploads/2015/10/kfi5dark.jpg);
+}
+
+#blog {
+    background-image: url(http://mdbootstrap.com/wp-content/uploads/2015/10/kfi5dark.jpg);
+}
+
+.parallax .avatar-ws {
+    margin-bottom: 3em;
+    width: 20%;
+    opacity: 0.8
+}
+
+.parallax {
+    color: #fff;
+}
+.parallax-container .container-small img {
+    opacity: 1;
+}
+
+/* Lightbox Gallery */
+
+.light-box-gallery .margin-top {
+    margin-top: 10em;
+}
+
+.light-box-gallery .portfolio-item {
+    margin: 0;
+    padding: 0;
+}
+
+.carousel-caption {
+animation-duration: 4s;
+}
+.fadeIn {
+    animation-delay: 0.4s;
+    animation-duration: 4s;
+}
